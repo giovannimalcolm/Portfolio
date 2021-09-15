@@ -1,0 +1,264 @@
+/*Universal Selector*/
+* {
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+}
+
+/*Body Formatting*/
+body {
+    background-color: #ffffff;
+    position:relative;
+}
+
+
+
+/*Headers*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #31343d;
+    color: #8bc0c3;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1 .Giovanni {
+    color: #ffffff;
+}
+
+.sideHeading h3 {
+    text-align: right;
+    color:rgb(87, 117, 148);
+    font-size: 3em;
+    font-weight: 200;
+    padding-right: 25px;
+    padding-top: 15%;
+}
+
+/*Header Navigation Links*/
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.header nav ul li {
+    border-bottom: 5px solid rgb(0, 153, 255);
+    padding: 5px;
+    margin: 0px 20px;
+    transition: border-bottom .25s;
+}
+
+figure {
+    float: left;
+    margin: 0;
+}
+
+
+/*Link formatting*/
+a {
+    color: #2a607c;
+    text-decoration: none;
+}
+/*Body Paragraph Formatting*/
+p {
+    font-size: 16px;
+}
+
+/*Main photo section formatting*/
+.hero {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/tumblr_6743b3632bac611bae9dd291193a3e4a_a6777e36_640.jpeg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/*Text block for hero image*/
+.subtitle {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    background-color: black;
+    color: yellowgreen;
+    padding: 20px 30px 20px 30px;
+    font-size: 30px;
+  }
+
+/*Main Page Containers*/
+.mainPageContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 90%;
+    margin: 30px auto;
+}
+
+.mainPageContainer p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+.sideHeading {
+    flex: 0 1 25%;
+    border-right: 5px solid rgb(87, 117, 148);
+    max-width: 25%;
+}
+
+.sideHeading h3 {
+    text-align: right;
+    color: rgb(87, 117, 148);
+    font-size: 3em;
+    font-weight: 200;
+    padding-right: 25px;
+}
+
+/*Main Page Containers - About Me*/
+.selfie {
+    max-width: 100px;
+    height: auto;
+    float: left;
+    margin: 20px 15px 10px 15px;
+}
+
+.aboutMe{
+     flex: 3 3 75%;
+     padding-left: 30px;
+   
+}
+
+/*Main Page Containers - Work*/
+
+.works{
+    flex: 3 3 75%;
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 30px;
+}
+
+.bigWork{
+    position: relative;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    border: 5px solid rgb(87, 117, 148);
+    margin: 1%;
+    box-shadow: inset 0 0 0 100vmax rgb(47 87 124 / 35%);
+    flex: 1 1 100%;
+    padding: 2%;
+    transition: box-shadow .5s;
+}
+
+.bigWork:hover {
+    box-shadow: none;
+}
+
+.workCaptions{ 
+    position: absolute;
+    left: -2px;
+    bottom: 15px;
+    background-color: rgba(54, 74, 94, 0.8);
+    width: auto;
+    height: 100px;
+    margin: 5px 5px 5px 0px;
+}
+
+.workCaptions h3, 
+.workCaptions p {
+    padding: 0 10px;
+    color: rgb(235,224,201);
+}
+
+.workLink{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.smallWork{
+    position: relative;
+    height: 200px;
+    display: flex;
+    margin: 1%;
+    border: 5px solid rgb(87, 117, 148);
+    box-shadow: inset 0 0 0 100vmax rgb(47 87 124 / 35%);
+    flex: 1 1 40%;
+    padding: 2%;
+    transition: box-shadow .5s;
+}
+
+.smallWork:hover {
+    box-shadow: none;
+}
+
+#film {
+    background-image: url(../images/0009472_0009472-r2-043-20.JPG);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#carModz {
+    background-image: url(../images/tumblr_ad64561ec1f489991fb1bf423600f83e_c9d19662_500.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#comedy {
+    background-image: url(../images/jerry.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#dogs {
+    background-image: url(../images/dog.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#electronics {
+    background-image: url(../images/electronics.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact{
+    display:flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content:space-around;
+    list-style: none;
+    flex: 1 1 100%;
+}
+
+.contact li {
+    flex: 1 1 auto;
+    border-bottom: 5px solid rgb(0, 153, 255);
+    padding: 5px;
+    margin: 0px 20px;
+    transition: border-bottom .25s;
+}

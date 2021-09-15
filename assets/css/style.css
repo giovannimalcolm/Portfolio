@@ -1,21 +1,22 @@
 /*Universal Selector*/
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
 
 /*Body Formatting*/
 body {
-    background-color: #d9dcd6;
+    background-color: #ffffff;
+    position:relative;
 }
+
+
 
 /*Headers*/
 .header {
-    padding: 20px;
+    
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #2a607c;
+    background-color: #31343d;
+    color: #8bc0c3;
 }
 
 .header h1 {
@@ -23,12 +24,28 @@ body {
     font-size: 48px;
 }
 
-.header h1 .seo {
-    color: #2a607c;
+.header h1 .Giovanni {
+    display: inline-block;
+    color: #31343d;
+    position: relative;
+    padding: 0 25px 0 75px;
+    background-color: #8bc0c3;
+    
+    font-weight: bold;
+
+}
+
+.sideHeading h3 {
+    text-align: right;
+    color:rgb(87, 117, 148);
+    font-size: 3em;
+    font-weight: 200;
+    padding-right: 25px;
+    padding-top: 15%;
 }
 
 /*Header Navigation Links*/
-.header nav 
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -38,16 +55,27 @@ body {
 
 .header nav ul {
     list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
 }
+
 
 .header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
+    border-bottom: 5px solid #8bc0c3;
+    padding: 5px;
+    margin: 0px 20px;
+    transition: border-bottom .25s;
 }
 
+figure {
+    float: left;
+    margin: 0;
+}
+
+
 /*Link formatting*/
-a {
-    color: #ffffff;
+.header nav ul li a {
+    color: #8bc0c3;
     text-decoration: none;
 }
 /*Body Paragraph Formatting*/
@@ -57,89 +85,254 @@ p {
 
 /*Main photo section formatting*/
 .hero {
-    height: px;
+    height: 350px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url('../images/tumblr_6743b3632bac611bae9dd291193a3e4a_a6777e36_640.jpeg;)
+    background-image: url("../images/tumblr_6743b3632bac611bae9dd291193a3e4a_a6777e36_640.jpeg");
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 
-/*Section formatting*/
-.float-left {
-    float: left;
-    margin-right: 25px;
+/*Text block for hero image*/
+.subtitle {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    background-color: #8bc0c3;
+    color: #31343d;
+    padding: 20px 30px 20px 30px;
+    font-size: 30px;
+
+    
+  }
+
+/*Main Page Containers*/
+.mainPageContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 90%;
+    margin: 30px auto;
 }
 
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-.benefit-lead, .benefit-brand, .benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-
-.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-
-
-.benefit-brand img, .benefit-cost img, .benefit-lead img {
+.mainPageContainer p {
     display: block;
-    margin: 10px auto;
-    max-width: 150px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+.sideHeading {
+    flex: 0 1 25%;
+    border-right: 5px solid rgb(87, 117, 148);
+    max-width: 25%;
 }
 
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
-    max-height: 200px;
+.sideHeading h3 {
+    text-align: right;
+    color: rgb(87, 117, 148);
+    font-size: 3em;
+    font-weight: 200;
+    padding-right: 25px;
 }
 
-
-.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+/*Main Page Containers - About Me*/
+.selfie {
+    max-width: 100px;
+    height: auto;
+    float: left;
+    margin: 20px 15px 10px 15px;
 }
 
-/*Footer formating*/
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+.aboutMe{
+     flex: 3 3 75%;
+     padding-left: 30px;
+   
 }
 
-.footer h2 {
-    font-size: 20px;
+/*Main Page Containers - Work*/
+
+.works{
+    flex: 3 3 75%;
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 30px;
+}
+
+.bigWork{
+    position: relative;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    border: 5px solid rgb(87, 117, 148);
+    margin: 1%;
+    box-shadow: inset 0 0 0 100vmax rgb(47 87 124 / 35%);
+    flex: 1 1 100%;
+    padding: 2%;
+    transition: box-shadow .5s;
+}
+
+.bigWork:hover {
+    box-shadow: none;
+}
+
+.workCaptions{ 
+    position: absolute;
+    left: -2px;
+    bottom: 15px;
+    background-color: #8bc0c3;
+    width: auto;
+    height: 100px;
+    margin: 5px 5px 5px 0px;
+}
+
+.workCaptions h3, 
+.workCaptions p {
+    padding: 0 10px;
+    color: #31343d;
+    font-weight: bold;
+}
+
+.workLink{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.smallWork{
+    position: relative;
+    height: 200px;
+    display: flex;
+    margin: 1%;
+    border: 5px solid rgb(87, 117, 148);
+    box-shadow: inset 0 0 0 100vmax rgb(47 87 124 / 35%);
+    flex: 1 1 40%;
+    padding: 2%;
+    transition: box-shadow .5s;
+}
+
+.smallWork:hover {
+    box-shadow: none;
+}
+
+#film {
+    background-image: url(../images/0009472_0009472-r2-043-20.JPG);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#carModz {
+    background-image: url(../images/tumblr_ad64561ec1f489991fb1bf423600f83e_c9d19662_500.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#comedy {
+    background-image: url(../images/jerry.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#dogs {
+    background-image: url(../images/dog.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#electronics {
+    background-image: url(../images/electronics.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact{
+    display:flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content:space-around;
+    list-style: none;
+    flex: 1 1 100%;
+}
+
+.contact li {
+    flex: 1 1 auto;
+    border-bottom: 5px solid rgb(87, 117, 148);
+    padding: 5px;
+    margin: 0px 20px;
+    transition: border-bottom .25s;
+    list-style-type: none;
+   
+}
+
+.contact li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+@media screen and (max-width: 962px) {
+    header {
+        position: relative;
+        display: flex;
+        height: 140px;
+        width: 100%;
+    }
+    header nav {
+        flex-direction: row;
+        position: relative;
+        align-items: center;
+        margin: 0 0;
+        width: 100%;
+    }
+    header ul {
+        width: 100%;
+        position: relative;
+    }
+    header   ul li {
+         position: relative;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .subtitle{
+        padding-top: 20px;
+        max-height: 100px;
+    }
+    h1 {
+        font-size: 24px;
+        text-align: center;
+        padding-left: 0;
+    }
+    .subtitle h2 {
+        font-size: 20px;
+    }
+    .sideHeading h3 {
+        font-size: 2em;
+    }
+    .mainPageContainer {
+        flex-direction: row;
+        height: 50%;
+      
+    }
+    .contact {
+        flex-flow: column;
+    }
+    .bigWork {
+        width:auto;
+        height: 200px;
+    }
+    .smallWork{
+        flex: 1 1 100%;
+        height: 200px;
+    }
 }
