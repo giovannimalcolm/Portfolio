@@ -72,12 +72,11 @@ figure {
     margin: 0;
 }
 
-
-/*Link formatting*/
 .header nav ul li a {
     color: #8bc0c3;
     text-decoration: none;
 }
+
 /*Body Paragraph Formatting*/
 p {
     font-size: 16px;
@@ -104,7 +103,6 @@ p {
     padding: 20px 30px 20px 30px;
     font-size: 30px;
 
-    
   }
 
 /*Main Page Containers*/
@@ -139,7 +137,7 @@ p {
     padding-right: 25px;
 }
 
-/*Main Page Containers - About Me*/
+/*About Me*/
 .selfie {
     max-width: 100px;
     height: auto;
@@ -153,7 +151,7 @@ p {
    
 }
 
-/*Main Page Containers - Work*/
+/* "My Works"*/
 
 .works{
     flex: 3 3 75%;
@@ -221,6 +219,7 @@ p {
     box-shadow: none;
 }
 
+/* ID TAGS*/
 #film {
     background-image: url(../images/0009472_0009472-r2-043-20.JPG);
     background-position: top;
@@ -256,6 +255,7 @@ p {
     background-size: cover;
 }
 
+/* Contact Section*/
 .contact{
     display:flex;
     flex-flow: row wrap;
@@ -299,7 +299,7 @@ p {
         width: 100%;
         position: relative;
     }
-    header   ul li {
+    header ul li {
          position: relative;
         justify-content: space-evenly;
         width: 100%;
