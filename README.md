@@ -1,8 +1,8 @@
 # appPortfolio
 
-![ScreenShot1](./assets/images/Screen Shot 2021-09-15 at 4.03.47 PM.png)
+![ScreenShot1](https://github.com/giovannimalcolm/appPortfolio/blob/main/assets/images/Screen%20Shot%202021-09-15%20at%204.03.47%20PM.png?raw=true)
 
-![ScreenShot2](./assets/images/Screen Shot 2021-09-15 at 4.03.57 PM.png)
+![ScreenShot2](https://github.com/giovannimalcolm/appPortfolio/blob/main/assets/images/Screen%20Shot%202021-09-15%20at%204.03.57%20PM.png?raw=true)
 
-![ScreenShot3](./assets/images/Screen Shot 2021-09-15 at 4.04.04 PM.png)
+![ScreenShot3](https://github.com/giovannimalcolm/appPortfolio/blob/main/assets/images/Screen%20Shot%202021-09-15%20at%204.04.04%20PM.png?raw=true)
 
