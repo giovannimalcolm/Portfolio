@@ -220,36 +220,38 @@ p {
 }
 
 /* ID TAGS*/
-#film {
-    background-image: url(../images/0009472_0009472-r2-043-20.JPG);
+#featuredWork {
+    background-image: url(../images/CoronaStockCheck.png);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#carModz {
-    background-image: url(../images/tumblr_ad64561ec1f489991fb1bf423600f83e_c9d19662_500.jpeg);
+
+
+#project-1 {
+    background-image: url(../images/horizon\ code\ refactor.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#comedy {
-    background-image: url(../images/jerry.png);
+#project-2 {
+    background-image: url(../images/team\ profile\ generator.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#dogs {
-    background-image: url(../images/dog.jpeg);
+#project-3 {
+    background-image: url(../images/weather\ dashboard.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#electronics {
-    background-image: url(../images/electronics.jpeg);
+#project-4 {
+    background-image: url(../images/password\ generator.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
