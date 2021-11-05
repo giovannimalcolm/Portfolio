@@ -1,6 +1,6 @@
-# appPortfolio
+# Portfolio
 
-* A portfolio page for Giovanni Malcolm. Includes a header with navigation links to respective parts of the page and one external link. Includes three main sections : about, my works, and contact. Works have hover capabilities. Alt texts are included for images. Media query is buggy. 
+* A portfolio page for Giovanni Malcolm. Includes a header with navigation links to respective parts of the page and one external link. Includes three main sections : about, my works, and contact. Works have hover capabilities. Alt texts are included for images. 
 
 Site can be found at: https://giovannimalcolm.github.io/appPortfolio/
 
